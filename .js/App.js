@@ -12,3 +12,5 @@ class Quiz {
         return "C'était pas si difficile :)"
     }
 }
+const quiz = new Quiz('Tombola',4); 
+quiz.getAnswer();
